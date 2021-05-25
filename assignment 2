@@ -1,0 +1,92 @@
+1.What are the two values of the Boolean data type? How do you write them?
+True/False
+
+2. What are the three different types of Boolean operators?
+and, or, not
+
+3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
+T and T is T
+T and F is F
+F and T is F
+F and F is F
+T or T is T
+T or F is T
+F or T is T
+F or F is F
+not F is T
+not T is F
+
+4. What are the values of the following expressions?
+(5 > 4) and (3 == 5)                         False
+not (5 > 4)                                  False
+(5 > 4) or (3 == 5)                          True
+not ((5 > 4) or (3 == 5))                    False
+(True and True) and (True == False)          False
+(not False) or (not True)                    True
+
+
+5. What are the six comparison operators?
+==
+!=
+>
+<
+>=
+<=
+
+6. How do you tell the difference between the equal to and assignment operators?Describe a condition and when you would use one.
+
+== is used to get a boolean value for whether the LHS is equal to RHS. Whereas, = is used to assign RHS to the LHS variable. A condition is an expression to evaluate a boolean value which could be used during the control statements
+
+7. Identify the three blocks in this code:
+spam = 0
+if spam == 10: -- block 1
+print('eggs')  --
+if spam > 5:   -- block 2
+print('bacon') --
+else:          -- block 3
+print('ham')
+print('spam')
+print('spam')
+
+
+8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+
+spam = input('enter the spam value: ')
+if spam == 1:
+  print('Hello')
+elif spam == 2:
+  print('Howdy')
+else:
+  print('Greetings!')
+
+
+9.If your programme is stuck in an endless loop, what keys you’ll press?
+Control + C
+
+
+10. How can you tell the difference between break and continue?
+
+Break statement will break the loop and starts executing the line after loop, whereas the continue statement will allow it to execute the loop.
+
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+
+the syntax of range is range(start, stop, step). there for all the above mentioned once call the same function with more specific inputs.
+
+
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+
+
+x = range(1,11)
+for n in x:
+print(n)
+
+i = 1;
+while i < 11:
+print(i)
+i += 1
+
+
+
+13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+
+spam.bacon()
