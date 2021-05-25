@@ -1,0 +1,55 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+*              - Expression
+'hello'        - Value 
+-87.8          - Value
+-              - Expression
+/              - Expression
++              - Expression
+6              - Value
+
+2. What is the difference between string and variable?
+A string is a collection of characters or a text which is also a type of variable. Whereas, variable is an name to which a value is assigned. Variable can be an integer, string, double, boolean etc.
+
+3. Describe three different data types.
+
+Integer - integers value
+boolean - True/false
+list - an array of values
+
+4. What is an expression made up of? What do all expressions do?
+An expression is usually a mathematical operator or an algebraic expression made of various operators, variables and constants. Expression usually be evaluated by the interpreter and display the result.
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+The statement spam = 10, is a variable(spam) to which 10 was assigned. whereas, an expression would contain mathematical operators which could be a function of a variable.
+
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+After running the above code, the variable bacon contains 22+1 = 23.
+
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+
+both of them would result in 'spamspamspam'.
+
+
+
+8. Why is eggs a valid variable name while 100 is invalid?
+
+This is because eggs align with the convention rules which states that a variable cannot start with a number hence 100 is invalid
+
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+
+int(), float(), and str() 
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+
+In python or in any other language, one cannot concatnate a string and a number. In order to remove the error, we can replace 99 with str(99).
+
+
